@@ -3,25 +3,10 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use((req, res, next) => {
-    console.log("First Dummy MiddleWare", req.url, req.method);
-    next();
-});
-
-app.use((req, res, next) => {
-    console.log("Second Dummy MiddleWare", req.url, req.method);
-    next();
-});
-
-/* app.use((req,res,next) => {
-     console.log("Third MiddleWare",req.url,req.method);
-     res.send("<h1>Welcome to complete coding</h1>");
-});
-*/
 
 app.get("/", (req, res) => {
     console.log("Handling / for GET", req.url, req.method);
-    res.send('<h1>Welcome to Complete Coding</h1>');
+    res.send('');
 });
 
 app.get("/contact-us", (req, res) => {
