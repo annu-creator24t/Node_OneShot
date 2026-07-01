@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "houseName": "Utsav",
+    "price": "1299",
+    "location": "Ghaziabad",
+    "rating": "4",
+    "photoUrl": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+  },
+  {
+    "id": "2",
+    "houseName": "Second House",
+    "price": "999",
+    "location": "Ghaziabad",
+    "rating": "4",
+    "photoUrl": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg"
+  },
+  {
+    "id": "3",
+    "houseName": "Luxury Villa",
+    "price": "2499",
+    "location": "Goa",
+    "rating": "5",
+    "photoUrl": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+  },
+  {
+    "id": "4",
+    "houseName": "Mountain Retreat",
+    "price": "1899",
+    "location": "Manali",
+    "rating": "4.8",
+    "photoUrl": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg"
+  },
+  {
+    "id": "5",
+    "houseName": "Beach House",
+    "price": "2999",
+    "location": "Pondicherry",
+    "rating": "4.9",
+    "photoUrl": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg"
+  }
+]

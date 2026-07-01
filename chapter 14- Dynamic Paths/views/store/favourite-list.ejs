@@ -9,7 +9,11 @@
       <div class="flex flex-wrap justify-center gap-6">
         <% registeredHomes.forEach(home => { %>
           <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 w-full max-w-sm">
-            <img src="https://images.pexels.com/photos/10048841/pexels-photo-10048841.jpeg?_gl=1*xf52ju*_ga*MTMzNzY0MjU5NS4xNzgyNzYwMTYw*_ga_8JE65Q40S6*czE3ODI3NjAxNjAkbzEkZzEkdDE3ODI3NjAxNjIkajU4JGwwJGgw>
+            <img
+  src="https://images.pexels.com/photos/10048841/pexels-photo-10048841.jpeg"
+  alt="House"
+  class="w-full h-64 object-cover"
+/>
               <h3 class="text-xl font-semibold text-gray-800 mb-2"><%= home.houseName %></h3>
               <p class="text-gray-600 mb-2"><i class="fas fa-map-marker-alt mr-2"></i><%= home.location %></p>
               <div class="flex justify-between items-center mb-2">
